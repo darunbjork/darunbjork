@@ -43,8 +43,8 @@ React-based frontend for a movie app with **signup/login, movie search, and favo
 ## 🛠 Skills
 
 *   **Languages & Frameworks:** JavaScript (ES6+), TypeScript, React, React Native, Node.js, Express, Angular, Django, HTML, CSS/SCSS
-*   **Databases & Cloud:** MongoDB, PostgreSQL, AWS, Docker
-*   **DevOps & Tools:** GitHub Actions, Jest, CI/CD, Agile Development, Git
+*   **Databases & Cloud:** MongoDB, PostgreSQL, AWS
+*   **DevOps & Tools:** GitHub Actions, Jest, CI/CD, Agile Development, Git, Docker
 
 ---
 
