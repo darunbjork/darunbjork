@@ -27,7 +27,7 @@ Backend API for IoT-like device management (lights, alarms, temperature), featur
 **Tech Stack:** Node.js, Express, MongoDB, Jest
 
 ### [🍜 Python Web Development Course](https://github.com/darunbjork/Python-Web-Development-Course)
-Django-based recipe manager for creating, organizing, and sharing recipes online.
+**Django-based recipe manager** for creating, organizing, and sharing recipes online.
 **Tech Stack:** Django, Python
 
 ### [🎬 myFlix Angular Client](https://github.com/darunbjork/myFlix-Angular-client)
