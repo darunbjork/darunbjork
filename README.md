@@ -1,4 +1,4 @@
-# Hi 👋 My name is Darun Bjork  
+# Hi 👋 My name is Darun A Mustafa 
 ### Full-stack MERN & React Native Developer  
 
 I'm a self-taught Full-stack JavaScript developer passionate about building **production-ready applications** with clean, scalable architecture.  
@@ -6,7 +6,7 @@ I started with HTML/CSS, moved into JavaScript and React, and today I design and
 I focus on **backend robustness, CI/CD automation, and crafting applications that solve real-world problems.**
 
 - 🌍 Based in **Stockholm, Sweden**  
-- 📧 Reach me at **[darunbjork@gmail.com](mailto:darunbjork@gmail.com)**  
+- **Email**: [darunbjork@gmail.com](mailto:darunbjork@gmail.com)  
 - 📚 Currently learning: **React Native · Agile Development · GitHub Actions CI/CD · Cloud (AWS & Docker)**  
 - 🤝 Open to collaborating on: **Open-source MERN projects · React Native apps · Backend APIs**  
 - ⚡ Fun fact: *I think in systems, code in patterns, and deploy with confidence.*  
@@ -19,6 +19,13 @@ I focus on **backend robustness, CI/CD automation, and crafting applications tha
 ---
 
 ## 🚀 Featured Projects  
+
+### [My Portfolio UI] Live Demo: (https://myportfolio-ui.netlify.app)
+GitHub: [github.com/darunbjork/portfolio-ui](https://github.com/darunbjork/portfolio-ui)
+Admin dashboard for managing a personal developer portfolio with role-based auth, API services, and responsive UI.
+A modern and responsive portfolio UI built with React.
+
+---
 
 ### [💼 Portfolio](https://github.com/darunbjork/portfolio)  
 🌐 Live Demo: [darun-tech-portfolio.netlify.app](https://darun-tech-portfolio.netlify.app)  
@@ -100,7 +107,7 @@ Django-based **recipe manager** for creating, organizing, and sharing recipes on
 
 ## 📄 License  
 
-MIT © 2025 [Darun Bjork](https://github.com/darunbjork)  
+MIT © 2025 [Darun .A Mustafa](https://github.com/darunbjork)  
 
 
 
