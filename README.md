@@ -57,6 +57,12 @@ Django-based **recipe manager** for creating, organizing, and sharing recipes on
 
 ---
 
+### [InsightAPI](https://github.com/darunbjork/InsightAPI)
+Backend for a social media platform with robust authentication, post management, and dynamic user interactions.
+Built with **MERN stack (MongoDB, Express, Node.js)**, focusing on security, scalability, and maintainability.
+
+---
+
 ## 🎓 Education  
 
 - **Chas Academy – Fullstackutvecklare Open Source (YH)**  
