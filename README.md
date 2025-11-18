@@ -94,7 +94,7 @@ Responsive single-page portfolio with GSAP animations and contact form.
 ## 🔥 Current Streak
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=darunbjork&theme=tokyonight" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=darunbjork&theme=tokyonight" alt="GitHub Streak"/>
 </div>
 
 ---
