@@ -131,6 +131,9 @@ Responsive single-page portfolio with GSAP animations and contact form.
 **Chas Academy** – Fullstackutvecklare Open Source (YH)  
 *Aug 2025 – 2027* | Full-stack development, DevOps, cloud-native architecture
 
+**Business Administration Diploma – Choman Technical Institute, Kurdistan**  
+*2011 – 2013* | Evaluated by **UHR (Sweden)** as equivalent to **SeQF Level 5 (post-secondary vocational education)**.
+
 **CareerFoundry** – Full-Stack Web Development  
 *Jun 2023 – Aug 2024* | Intensive program: Frontend, backend, databases, deployment
 
