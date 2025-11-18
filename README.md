@@ -89,6 +89,13 @@ Responsive single-page portfolio with GSAP animations and contact form.
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=darunbjork&layout=compact&langs_count=8&theme=tokyonight"/>
 </div>
 
+## 🔥 Current Streak
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=darunbjork&theme=tokyonight" alt="GitHub Streak"/>
+</div>
+
+
 
 
 ## 💼 Technical Capabilities
