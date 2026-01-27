@@ -82,10 +82,18 @@ Responsive single-page portfolio with GSAP animations and contact form.
 
 ---
 
+### [DevQuiz](https://github.com/darunbjork/DevQuiz)
+A dynamic React + TypeScript web app that uses the Gemini AI API to transform study notes into personalized multiple-choice quizzes, featuring progress tracking, dark mode, and a full frontend architecture.  
+**Stack**: React, TypeScript, Gemini AI API  
+**Features**: Personalized multiple-choice quizzes from study notes, progress tracking, dark mode  
+**Demonstrates**: Frontend architecture, AI API integration, dynamic content generation
+
+---
+
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=darunbjork&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&cache_bust=1"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=darunbjork&show_icons=true&theme=tokyonight&count_private=true&cache_bust=1"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=darunbjork&layout=compact&langs_count=8&theme=tokyonight&cache_bust=1"/>
 </div>
 
