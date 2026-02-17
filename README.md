@@ -116,11 +116,13 @@ A dynamic React + TypeScript web app that uses the Gemini AI API to transform st
 
 ## 💼 Technical Capabilities
 
-**Backend**: Node.js, Express, TypeScript, Python/Django, RESTful APIs, JWT auth, WebSocket, MQTT  
-**Frontend**: React, TypeScript, Tailwind CSS, Zustand, responsive design  
-**Databases**: MongoDB (Mongoose), PostgreSQL, Firebase  
-**DevOps**: Docker, CI/CD (GitHub Actions), Cloudinary, API documentation (Swagger)  
-**Architecture**: RBAC, multi-tenancy, real-time systems, service layers, security middleware
+Backend: Node.js, Bun, Express, Fastify, TypeScript, Python (Django), REST API design, JWT authentication, RBAC, WebSockets, MQTT  
+Frontend: React (Vite), TypeScript, Tailwind CSS, Zustand state management, protected routes & role-based UI  
+Databases: MongoDB (Mongoose), PostgreSQL, Firebase  
+DevOps & Infrastructure: Docker, GitHub Actions (CI/CD), containerized deployments, environment configuration  
+Documentation & Integrations: Swagger/OpenAPI, Cloudinary  
+Architecture: RBAC, multi-tenancy, service-layer architecture, real-time systems, security middleware patterns  
+AI Integration: LLM API integration (Gemini), structured content generation pipelines  
 
 ---
 
