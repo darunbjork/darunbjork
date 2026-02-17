@@ -1,12 +1,18 @@
-# 👋 Hi, My name is Darun A Mustafa
+# 👋 Hi, I'm Darun A Mustafa
 
-Full-stack engineer building production applications with Node.js, React, and TypeScript. Focused on clean architecture, type safety, and scalable systems.
+Systems-oriented full-stack engineer building production applications using MERN, TypeScript, Bun, and Fastify.
 
-- 🌍 Based in Stockholm, Sweden
-- 📧 Email: [darunbjork@gmail.com](mailto:darunbjork@gmail.com)
-- 🎓 Currently studying: **Fullstack Developer** at Chas Academy (2025-2027) – Focus on full-stack development, DevOps, and cloud-native architecture
-- 💼 Open to: **Frontend, Backend, and Full-Stack** roles
-- 🔗 Portfolio: [myportfolio-ui.netlify.app](https://myportfolio-ui.netlify.app)
+I design backend architectures with structured APIs, authentication flows, RBAC, database modeling, and Dockerized deployment pipelines. On the frontend, I build type-safe React applications with scalable state management and clean component architecture.
+
+I have experience integrating LLM APIs (Gemini) into backend systems to power dynamic learning and content-generation workflows.
+
+---
+
+🌍 Stockholm, Sweden  
+📧 darunbjork@gmail.com  
+🎓 Fullstack Developer – Chas Academy (2025–2027)  
+💼 Seeking Frontend, Backend, or Full-Stack roles  
+🔗 Portfolio: https://myportfolio-ui.netlify.app
 
 ---
 
