@@ -126,15 +126,13 @@ AI Integration: LLM API integration (Gemini), structured content generation pipe
 
 ---
 
-## 🎯 Currently Exploring
+## 🎯 Currently Deepening
 
-- Advanced TypeScript patterns and generics
-- Microservices architecture
-- Testing strategies (TDD, integration testing)
-- Cloud deployment patterns
-- Performance optimization
-
----
+• Advanced TypeScript patterns & generics  
+• Backend testing strategies (unit & integration)  
+• Distributed system design fundamentals  
+• Cloud deployment strategies  
+• Performance profiling & optimization
 
 ## 🤝 Connect With Me
 
