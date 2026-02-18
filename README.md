@@ -44,7 +44,7 @@ I have experience integrating LLM APIs (Gemini) into backend systems to power dy
 
 ## 🚀 Featured Projects
 
-### [Smart Home Automation API](https://github.com/darunbjork/smart-home-automation-api)
+### [Smart Home Automation API](https://github.com/darunbjork/smart-home-automation-api) | [Live Demo](https://smart-home-api-c9r8.onrender.com)
 Scalable multi-tenant backend system for smart home automation with real-time device control and secure role-based access.
 **Stack**: Node.js, TypeScript, MongoDB, WebSocket, MQTT, Docker
 **Features**:
