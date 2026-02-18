@@ -45,10 +45,15 @@ I have experience integrating LLM APIs (Gemini) into backend systems to power dy
 ## 🚀 Featured Projects
 
 ### [Smart Home Automation API](https://github.com/darunbjork/smart-home-automation-api)
-Multi-tenant IoT backend with real-time device control and MQTT integration.  
-**Stack**: Node.js, TypeScript, MongoDB, WebSocket (socket.io), MQTT, Docker  
-**Features**: JWT refresh token rotation, RBAC, multi-tenancy, real-time updates, CI/CD with GitHub Actions  
-**Demonstrates**: TypeScript architecture, IoT protocols, real-time systems, security patterns
+Scalable multi-tenant backend system for smart home automation with real-time device control and secure role-based access.
+**Stack**: Node.js, TypeScript, MongoDB, WebSocket, MQTT, Docker
+**Features**:
+• Designed RESTful API with JWT authentication and RBAC
+• Implemented WebSocket + MQTT for real-time device communication
+• Multi-tenant architecture with isolated device ownership
+• Production-ready Docker setup with CI/CD and automated tests (Jest)
+• Security middleware, error handling, and structured service layers
+**Focus**: real-time systems, backend architecture, authentication flows, production deployment.
 
 ---
 
