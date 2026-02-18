@@ -53,11 +53,15 @@ Multi-tenant IoT backend with real-time device control and MQTT integration.
 ---
 
 ### [Portfolio Management System](https://github.com/darunbjork/my-portfolio-os) | [Live Demo](https://myportfolio-ui.netlify.app)
-Full-stack portfolio platform with admin dashboard and role-based content management.  
-**Backend**: Node.js, Express, MongoDB, Docker, Jest  
-**Frontend**: React, TypeScript, Tailwind CSS, Zustand  
-**Features**: RBAC (Owner/Admin/Viewer), JWT auth, Cloudinary uploads, RESTful API with Swagger docs  
-**Demonstrates**: Full-stack integration, modern React patterns, API design, deployment
+Role-based portfolio management backend designed as a secure admin system with media handling and structured API architecture.
+**Stack**: Node.js, Express, MongoDB, Docker
+**Features**:
+• JWT authentication with owner/admin role separation (RBAC)
+• Secure file uploads with Cloudinary integration
+• REST API with service-layer architecture and centralized error handling
+• Dockerized deployment with CI/CD
+• Integration-tested endpoints for authentication and project management
+**Focus**: backend security patterns, access control systems, API architecture, deployment workflows.
 
 ---
 
