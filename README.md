@@ -61,6 +61,32 @@ Full-stack portfolio platform with admin dashboard and role-based content manage
 
 ---
 
+### [DevQuiz](https://github.com/darunbjork/DevQuiz)
+AI-powered quiz generation platform that transforms study notes into structured multiple-choice assessments using LLM integration.
+**Stack**: React, TypeScript, Gemini API
+**Features**:
+• Integrated Gemini API for dynamic quiz generation
+• Designed structured prompt pipelines for consistent output formatting
+• Implemented progress tracking and state persistence
+• Type-safe frontend architecture with React + TypeScript
+• Component-driven design with scalable state management
+**Focus**: LLM API integration, AI-assisted content generation, frontend architecture, dynamic data flows.
+
+---
+
+### [Portfolio UI](https://github.com/darunbjork/portfolio-ui) | [Live Demo](https://myportfolio-ui.netlify.app)
+Role-based admin dashboard built with React and TypeScript, consuming a secured REST API for full portfolio management.
+**Stack**: React, TypeScript, Tailwind CSS, Zustand
+**Features**:
+• Integrated JWT authentication and role-based UI protection
+• Modular API service layer with Axios interceptors
+• Zustand-based global auth state management
+• Responsive UI with Tailwind and component abstraction
+• Secure media uploads and dynamic content management
+**Focus**: frontend architecture, protected routes, state management, API integration.
+
+---
+
 ### [InsightAPI](https://github.com/darunbjork/insightAPI)
 Social media platform backend with authentication and dynamic user interactions.  
 **Stack**: MERN (MongoDB, Express, React, Node.js)  
@@ -93,14 +119,6 @@ Role-based admin dashboard built with React and TypeScript, consuming a secured 
 ### [Developer Portfolio](https://github.com/darunbjork/portfolio) | [Live Demo](https://darun-tech-portfolio.netlify.app)
 Responsive single-page portfolio with GSAP animations and contact form.  
 **Stack**: HTML, CSS, JavaScript, Node.js (Express backend)
-
----
-
-### [DevQuiz](https://github.com/darunbjork/DevQuiz)
-A dynamic React + TypeScript web app that uses the Gemini AI API to transform study notes into personalized multiple-choice quizzes, featuring progress tracking, dark mode, and a full frontend architecture.  
-**Stack**: React, TypeScript, Gemini AI API  
-**Features**: Personalized multiple-choice quizzes from study notes, progress tracking, dark mode  
-**Demonstrates**: Frontend architecture, AI API integration, dynamic content generation
 
 ---
 
