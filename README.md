@@ -77,10 +77,10 @@ RESTful API for movie catalog with user authentication and favorites management.
 
 ---
 
-### [Recipe Manager](https://github.com/darunbjork/Python-Web-Development-Course)
-Django-based recipe management platform.  
-**Stack**: Python, Django, PostgreSQL  
-**Demonstrates**: Python backend development, Django ORM, MVC patterns
+### [Portfolio UI](https://github.com/darunbjork/portfolio-ui)
+A modern and responsive portfolio user interface.
+**Stack**: React, TypeScript, Tailwind CSS
+**Demonstrates**: Frontend development, responsive design, component architecture
 
 ---
 
