@@ -57,7 +57,7 @@ Scalable multi-tenant backend system for smart home automation with real-time de
 
 ---
 
-### [Portfolio Management System](https://github.com/darunbjork/my-portfolio-os) | [Live Demo](https://myportfolio-ui.netlify.app)
+### [Portfolio Management System](https://github.com/darunbjork/my-portfolio-os) | [Live Demo](https://my-portfolio-gr2e.onrender.com)
 Role-based portfolio management backend designed as a secure admin system with media handling and structured API architecture.
 **Stack**: Node.js, Express, MongoDB, Docker
 **Features**:
