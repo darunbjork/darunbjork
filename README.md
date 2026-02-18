@@ -77,10 +77,16 @@ RESTful API for movie catalog with user authentication and favorites management.
 
 ---
 
-### [Portfolio UI](https://github.com/darunbjork/portfolio-ui)
-A modern and responsive portfolio user interface.
-**Stack**: React, TypeScript, Tailwind CSS
-**Demonstrates**: Frontend development, responsive design, component architecture
+### [Portfolio UI](https://github.com/darunbjork/portfolio-ui) | [Live Demo](https://myportfolio-ui.netlify.app)
+Role-based admin dashboard built with React and TypeScript, consuming a secured REST API for full portfolio management.
+**Stack**: React, TypeScript, Tailwind CSS, Zustand
+**Features**:
+• Integrated JWT authentication and role-based UI protection
+• Modular API service layer with Axios interceptors
+• Zustand-based global auth state management
+• Responsive UI with Tailwind and component abstraction
+• Secure media uploads and dynamic content management
+**Focus**: frontend architecture, protected routes, state management, API integration.
 
 ---
 
