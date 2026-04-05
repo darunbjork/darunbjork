@@ -83,6 +83,19 @@ AI-powered quiz generation platform that transforms study notes into structured 
 
 ---
 
+### [DevQuiz API](https://github.com/darunbjork/devquiz-api)
+Backend API for creating, taking, and managing quizzes, featuring robust user authentication, AI-powered quiz generation (Google Gemini), and role-based access control.
+**Stack**: Bun, TypeScript, Fastify, MongoDB
+**Features**:
+• Robust user authentication (JWT with refresh tokens) and RBAC
+• AI-powered quiz generation using Google Gemini API
+• Full CRUD operations for quizzes, attempts, and notes
+• Comprehensive API documentation with Swagger/OpenAPI
+• Containerized deployment with Docker & Docker Compose
+**Focus**: Backend architecture, API design, AI integration, security, authentication.
+
+---
+
 ### [Portfolio UI](https://github.com/darunbjork/portfolio-ui) | [Live Demo](https://myportfolio-ui.netlify.app)
 Role-based admin dashboard built with React and TypeScript, consuming a secured REST API for full portfolio management.
 **Stack**: React, TypeScript, Tailwind CSS, Zustand
