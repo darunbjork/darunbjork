@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Darun A Mustafa
+# 👋 Hi, I'm Darun Mustafa
 
 Systems-oriented full-stack engineer building production applications using MERN, TypeScript, Bun, and Fastify.
 
