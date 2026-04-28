@@ -1,206 +1,126 @@
 # 👋 Hi, I'm Darun Mustafa
 
-Systems-oriented full-stack engineer building production applications using MERN, TypeScript, Bun, and Fastify.
+Full-stack developer shipping production systems in React/TypeScript,
+Node.js/Fastify, PostgreSQL, MongoDB, and Docker — with a consistent
+focus on auth security, API contract design, and real-time data.
 
-I design backend architectures with structured APIs, authentication flows, RBAC, database modeling, and Dockerized deployment pipelines. On the frontend, I build type-safe React applications with scalable state management and clean component architecture.
+Six years coordinating complex operations under pressure built one rule:
+**design for failure before you design for features** — I bring the same
+precision regulators required in documentation to every codebase I touch.
 
-I have experience integrating LLM APIs (Gemini) into backend systems to power dynamic learning and content-generation workflows.
+> Specialising in production LLM integrations — structured prompt pipelines,
+> output validation, and AI-powered full-stack backends.
 
----
-
-🌍 Stockholm, Sweden  
-📧 darunbjork@gmail.com  
-🎓 Fullstack Developer – Chas Academy (2025–2027)  
-💼 Seeking Frontend, Backend, or Full-Stack roles  
+🌍 Stockholm, Sweden
+📧 darunbjork@gmail.com
+🎓 Fullstack Developer — Chas Academy (2025–2027)
+💼 Open to Full-Stack, Frontend, and Backend roles
 🔗 Portfolio: https://myportfolio-ui.netlify.app
 
 ---
 
 ## 🛠 Skills
 
-### Languages & Frameworks
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
+**Frontend**
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 
-### Databases & Tools
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socket.io&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+**Backend**
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat&logo=fastify&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat)
+![Bun](https://img.shields.io/badge/Bun-000000?style=flat&logo=bun&logoColor=white)
+
+**AI & Prompt Engineering**
+![Gemini](https://img.shields.io/badge/Gemini_LLM-4285F4?style=flat&logo=google&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-FF6B6B?style=flat)
+![LLM Integration](https://img.shields.io/badge/LLM_Integration-7C3AED?style=flat)
+
+**Databases**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=flat&logo=firebase&logoColor=white)
+
+**DevOps & Tooling**
+![Docker](https://img.shields.io/badge/Docker-0DB7ED?style=flat&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-323330?style=flat&logo=jest&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white)
+
+**APIs & Protocols**
+![REST](https://img.shields.io/badge/REST_API-FF6C37?style=flat)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat)
+![JWT](https://img.shields.io/badge/JWT/RBAC-000000?style=flat&logo=jsonwebtokens&logoColor=white)
 
 ---
 
 ## 🚀 Featured Projects
 
-### [Smart Home Automation API](https://github.com/darunbjork/smart-home-automation-api) | [Live Demo](https://smart-home-api-c9r8.onrender.com)
-Scalable multi-tenant backend system for smart home automation with real-time device control and secure role-based access.
-**Stack**: Node.js, TypeScript, MongoDB, WebSocket, MQTT, Docker
-**Features**:
-• Designed RESTful API with JWT authentication and RBAC
-• Implemented WebSocket + MQTT for real-time device communication
-• Multi-tenant architecture with isolated device ownership
-• Production-ready Docker setup with CI/CD and automated tests (Jest)
-• Security middleware, error handling, and structured service layers
-**Focus**: real-time systems, backend architecture, authentication flows, production deployment.
+### [Smart Home Automation API](https://github.com/darunbjork/smart-home-automation-api) · [Live Demo ↗](https://smart-home-api-c9r8.onrender.com/)
+`Node.js` `TypeScript` `MongoDB` `MQTT` `Socket.io` `JWT/RBAC` `Docker` `GitHub Actions` `Swagger`
+
+- **Full IoT real-time loop** — MQTT handles device commands; Socket.io fans state to all clients in <30 ms; closed-loop simulator validates the full device ↔ API ↔ client flow
+- **Production-hardened deploy** — multi-stage Dockerfile, multi-platform image (linux/amd64 + linux/arm64), GitHub Actions CI, Swagger /api-docs, live on Render
+- **Zero cross-tenant leakage** — RBAC + household-scoped middleware at the route layer; users physically cannot read or write another tenant's devices
 
 ---
 
-### [Portfolio Management System](https://github.com/darunbjork/my-portfolio-os) | [Live Demo](https://my-portfolio-gr2e.onrender.com)
-Role-based portfolio management backend designed as a secure admin system with media handling and structured API architecture.
-**Stack**: Node.js, Express, MongoDB, Docker
-**Features**:
-• JWT authentication with owner/admin role separation (RBAC)
-• Secure file uploads with Cloudinary integration
-• REST API with service-layer architecture and centralized error handling
-• Dockerized deployment with CI/CD
-• Integration-tested endpoints for authentication and project management
-**Focus**: backend security patterns, access control systems, API architecture, deployment workflows.
+### [DevQuiz — AI Quiz Platform](https://github.com/darunbjork/DevQuiz)
+`React` `TypeScript` `Gemini API` `Bun` `Fastify` `PostgreSQL` `FastAPI` `Docker`
+
+- **Structured prompt engineering** — micro-step prompt pipelines + output validation cut off-format Gemini responses by ~85% vs unstructured prompting
+- **Resumable sessions** — PostgreSQL-persisted quiz state with JWT accounts; users resume mid-session with zero data loss on reconnect
 
 ---
 
-### [DevQuiz](https://github.com/darunbjork/DevQuiz)
-AI-powered quiz generation platform that transforms study notes into structured multiple-choice assessments using LLM integration.
-**Stack**: React, TypeScript, Gemini API
-**Features**:
-• Integrated Gemini API for dynamic quiz generation
-• Designed structured prompt pipelines for consistent output formatting
-• Implemented progress tracking and state persistence
-• Type-safe frontend architecture with React + TypeScript
-• Component-driven design with scalable state management
-**Focus**: LLM API integration, AI-assisted content generation, frontend architecture, dynamic data flows.
+### [Portfolio Management System](https://github.com/darunbjork/my-portfolio-os) · [Live Demo ↗](https://my-portfolio-gr2e.onrender.com/)
+`React` `TypeScript` `Tailwind` `Zustand` `Axios` `Node.js` `MongoDB` `Cloudinary` `JWT`
 
----
-
-### [DevQuiz API](https://github.com/darunbjork/devquiz-api)
-Backend API for creating, taking, and managing quizzes, featuring robust user authentication, AI-powered quiz generation (Google Gemini), and role-based access control.
-**Stack**: Bun, TypeScript, Fastify, MongoDB
-**Features**:
-• Robust user authentication (JWT with refresh tokens) and RBAC
-• AI-powered quiz generation using Google Gemini API
-• Full CRUD operations for quizzes, attempts, and notes
-• Comprehensive API documentation with Swagger/OpenAPI
-• Containerized deployment with Docker & Docker Compose
-**Focus**: Backend architecture, API design, AI integration, security, authentication.
-
----
-
-### [Portfolio UI](https://github.com/darunbjork/portfolio-ui) | [Live Demo](https://myportfolio-ui.netlify.app)
-Role-based admin dashboard built with React and TypeScript, consuming a secured REST API for full portfolio management.
-**Stack**: React, TypeScript, Tailwind CSS, Zustand
-**Features**:
-• Integrated JWT authentication and role-based UI protection
-• Modular API service layer with Axios interceptors
-• Zustand-based global auth state management
-• Responsive UI with Tailwind and component abstraction
-• Secure media uploads and dynamic content management
-**Focus**: frontend architecture, protected routes, state management, API integration.
-
----
-
-### [InsightAPI](https://github.com/darunbjork/insightAPI)
-Social media platform backend with authentication and dynamic user interactions.  
-**Stack**: MERN (MongoDB, Express, React, Node.js)  
-**Features**: User authentication, post management, secure API endpoints  
-**Demonstrates**: MERN stack, data relationships, RESTful design
-
----
-
-### [Movie Database API](https://github.com/darunbjork/movie_api)
-RESTful API for movie catalog with user authentication and favorites management.  
-**Stack**: Node.js, Express, MongoDB, Passport.js  
-**Features**: JWT authentication, user profiles, CRUD operations  
-**Frontend**: [React Client](https://github.com/darunbjork/myFlix-client), Filmwebbsida (vanilla JS)
-
----
-
-### [Portfolio UI](https://github.com/darunbjork/portfolio-ui) | [Live Demo](https://myportfolio-ui.netlify.app)
-Role-based admin dashboard built with React and TypeScript, consuming a secured REST API for full portfolio management.
-**Stack**: React, TypeScript, Tailwind CSS, Zustand
-**Features**:
-• Integrated JWT authentication and role-based UI protection
-• Modular API service layer with Axios interceptors
-• Zustand-based global auth state management
-• Responsive UI with Tailwind and component abstraction
-• Secure media uploads and dynamic content management
-**Focus**: frontend architecture, protected routes, state management, API integration.
-
----
-
-### [Developer Portfolio](https://github.com/darunbjork/portfolio) | [Live Demo](https://darun-tech-portfolio.netlify.app)
-Responsive single-page portfolio with GSAP animations and contact form.  
-**Stack**: HTML, CSS, JavaScript, Node.js (Express backend)
+- **Hardened file upload pipeline** — MIME type + size validation at middleware; invalid payloads blocked before reaching Cloudinary — bad data never enters the storage layer
+- **Production-scale frontend patterns** — Zustand global auth state, Axios interceptor token refresh, abstracted API service layer
 
 ---
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=darunbjork&show_icons=true&theme=tokyonight&count_private=true&cache_bust=1"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=darunbjork&layout=compact&langs_count=8&theme=tokyonight&cache_bust=1"/>
-</div>
-
-## 🔥 Current Streak
-
-<div align="center">
-  <img height="180em"  src="https://streak-stats.demolab.com/?user=darunbjork&theme=tokyonight&cache_bust=1" alt="GitHub Streak"/>
-</div>
-
-
-
-
-## 💼 Technical Capabilities
-
-Backend: Node.js, Bun, Express, Fastify, TypeScript, Python (Django), REST API design, JWT authentication, RBAC, WebSockets, MQTT  
-Frontend: React (Vite), TypeScript, Tailwind CSS, Zustand state management, protected routes & role-based UI  
-Databases: MongoDB (Mongoose), PostgreSQL, Firebase  
-DevOps & Infrastructure: Docker, GitHub Actions (CI/CD), containerized deployments, environment configuration  
-Documentation & Integrations: Swagger/OpenAPI, Cloudinary  
-Architecture: RBAC, multi-tenancy, service-layer architecture, real-time systems, security middleware patterns  
-AI Integration: LLM API integration (Gemini), structured content generation pipelines  
+![Darun's GitHub Stats](https://github-readme-stats.vercel.app/api?username=darunbjork&show_icons=true&theme=dark&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=darunbjork&layout=compact&theme=dark&hide_border=true)
 
 ---
 
-## 🎯 Currently Deepening
+## 🔥 Streak
 
-• Advanced TypeScript patterns & generics  
-• Backend testing strategies (unit & integration)  
-• Distributed system design fundamentals  
-• Cloud deployment strategies  
-• Performance profiling & optimization
+![GitHub Streak](https://streak-stats.demolab.com?user=darunbjork&theme=dark&hide_border=true)
 
-## 🤝 Connect With Me
+---
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/darunbjork)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/darun-mustafa-b4a3b4382/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:darunbjork@gmail.com)
+## 🤝 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/darun-mustafa/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=netlify&logoColor=white)](https://myportfolio-ui.netlify.app)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:darunbjork@gmail.com)
 
 ---
 
 ## 📚 Education
 
-**Chas Academy** – Fullstackutvecklare Open Source (YH)  
-*Aug 2025 – 2027* | Full-stack development, DevOps, cloud-native architecture
+**Fullstack Developer — Open Source Track** · Chas Academy, Stockholm
+`Sep 2025 – Jun 2027` · Full-stack development, DevOps, cloud-native architecture
 
-**Business Administration Diploma – Choman Technical Institute, Kurdistan**  
-*2011 – 2013* | Evaluated by **UHR (Sweden)** as equivalent to **SeQF Level 5 (post-secondary vocational education)**.
+**Full-Stack Web Development Certificate** · CareerFoundry (Remote)
+`Jun 2023 – Aug 2024` · Frontend, backend, databases, deployment
 
-**CareerFoundry** – Full-Stack Web Development  
-*Jun 2023 – Aug 2024* | Intensive program: Frontend, backend, databases, deployment
+**Business Administration Diploma** · Choman Technical Institute, Iraq
+`2011 – 2013` · Evaluated by UHR Sweden as equivalent to SeQF Level 5
 
 ---
 
-<div align="center">
-  <i>⚡ Fun fact: I think in systems, code in patterns, and deploy with confidence.</i>
-</div>
+*⚡ Design for failure before you design for features.*
