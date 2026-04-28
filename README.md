@@ -8,14 +8,63 @@ Six years coordinating complex operations under pressure built one rule:
 **design for failure before you design for features** — I bring the same
 precision regulators required in documentation to every codebase I touch.
 
-> Specialising in production LLM integrations — structured prompt pipelines,
-> output validation, and AI-powered full-stack backends.
+> Specialising in production LLM integrations — structured prompt
+> pipelines, output validation, and AI-powered full-stack backends.
 
 🌍 Stockholm, Sweden
 📧 darunbjork@gmail.com
 🎓 Fullstack Developer — Chas Academy (2025–2027)
 💼 Open to Full-Stack, Frontend, and Backend roles
 🔗 Portfolio: https://myportfolio-ui.netlify.app
+
+---
+
+## 🚧 Currently Building
+
+| Project                                                                                  | Stack                                     | Status        |
+| ---------------------------------------------------------------------------------------- | ----------------------------------------- | ------------- |
+| [Research Assistant Platform](https://github.com/darunbjork/research-assistant-platform) | React · Fastify · Gemini · RAG · Pinecone | 🟡 In progress |
+| [Task Manager API](https://github.com/darunbjork/task-manager-api)                       | Bun · Fastify · PostgreSQL · Prisma       | 🟡 In progress |
+| [Smart Home Frontend](https://github.com/darunbjork/smart-home-frontend)                 | React · TypeScript · Socket.io · Tailwind | 🟡 In progress |
+
+> 🟢 Shipped · 🟡 In progress · 🔴 Planned
+
+---
+
+## 🚀 Featured Projects
+
+### [Smart Home Automation API](https://github.com/darunbjork/smart-home-automation-api) · [Live Demo ↗](https://smart-home-api-c9r8.onrender.com/)
+`Node.js` `TypeScript` `MongoDB` `MQTT` `Socket.io` `JWT/RBAC` `Docker` `GitHub Actions` `Swagger`
+
+- **Full IoT real-time loop** — MQTT handles device commands; Socket.io fans state to all clients in <30 ms; closed-loop simulator validates the full device ↔ API ↔ client flow
+- **Production-hardened deploy** — multi-stage Dockerfile, multi-platform image (linux/amd64 + linux/arm64), GitHub Actions CI, Swagger /api-docs, live on Render
+- **Zero cross-tenant leakage** — RBAC + household-scoped middleware at the route layer; users physically cannot read or write another tenant's devices
+
+---
+
+### [DevQuiz — AI Quiz Platform](https://github.com/darunbjork/DevQuiz)
+`React` `TypeScript` `Gemini API` `Bun` `Fastify` `PostgreSQL` `FastAPI` `Docker`
+
+- **Structured prompt engineering** — micro-step prompt pipelines + output validation cut off-format Gemini responses by ~85% vs unstructured prompting
+- **Resumable sessions** — PostgreSQL-persisted quiz state with JWT accounts; users resume mid-session with zero data loss on reconnect
+
+---
+
+### [Portfolio Management System](https://github.com/darunbjork/my-portfolio-os) · [Live Demo ↗](https://my-portfolio-gr2e.onrender.com/)
+`React` `TypeScript` `Tailwind` `Zustand` `Axios` `Node.js` `MongoDB` `Cloudinary` `JWT`
+
+- **Hardened file upload pipeline** — MIME type + size validation at middleware; invalid payloads blocked before reaching Cloudinary
+- **Production-scale frontend patterns** — Zustand global auth state, Axios interceptor token refresh, abstracted API service layer
+
+---
+
+## 🗂 Also Built
+
+| Project                                                                  | Description                                                            | Stack                                     |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------- | ----------------------------------------- |
+| [DevQuiz API](https://github.com/darunbjork/devquiz-api)                 | Backend for AI quiz generation with Gemini, JWT auth, and Swagger docs | Bun · Fastify · MongoDB · Gemini          |
+| [InsightAPI](https://github.com/darunbjork/InsightAPI)                   | Social platform backend — auth, posts, user relationships              | Node.js · Express · MongoDB               |
+| [Developer Portfolio](https://github.com/darunbjork/developer-portfolio) | Responsive SPA with GSAP animations and Node.js contact backend        | HTML · CSS · JavaScript · Node.js         |
 
 ---
 
@@ -62,41 +111,25 @@ precision regulators required in documentation to every codebase I touch.
 
 ---
 
-## 🚀 Featured Projects
+## 📚 Currently Learning
 
-### [Smart Home Automation API](https://github.com/darunbjork/smart-home-automation-api) · [Live Demo ↗](https://smart-home-api-c9r8.onrender.com/)
-`Node.js` `TypeScript` `MongoDB` `MQTT` `Socket.io` `JWT/RBAC` `Docker` `GitHub Actions` `Swagger`
-
-- **Full IoT real-time loop** — MQTT handles device commands; Socket.io fans state to all clients in <30 ms; closed-loop simulator validates the full device ↔ API ↔ client flow
-- **Production-hardened deploy** — multi-stage Dockerfile, multi-platform image (linux/amd64 + linux/arm64), GitHub Actions CI, Swagger /api-docs, live on Render
-- **Zero cross-tenant leakage** — RBAC + household-scoped middleware at the route layer; users physically cannot read or write another tenant's devices
-
----
-
-### [DevQuiz — AI Quiz Platform](https://github.com/darunbjork/DevQuiz)
-`React` `TypeScript` `Gemini API` `Bun` `Fastify` `PostgreSQL` `FastAPI` `Docker`
-
-- **Structured prompt engineering** — micro-step prompt pipelines + output validation cut off-format Gemini responses by ~85% vs unstructured prompting
-- **Resumable sessions** — PostgreSQL-persisted quiz state with JWT accounts; users resume mid-session with zero data loss on reconnect
-
----
-
-### [Portfolio Management System](https://github.com/darunbjork/my-portfolio-os) · [Live Demo ↗](https://my-portfolio-gr2e.onrender.com/)
-`React` `TypeScript` `Tailwind` `Zustand` `Axios` `Node.js` `MongoDB` `Cloudinary` `JWT`
-
-- **Hardened file upload pipeline** — MIME type + size validation at middleware; invalid payloads blocked before reaching Cloudinary — bad data never enters the storage layer
-- **Production-scale frontend patterns** — Zustand global auth state, Axios interceptor token refresh, abstracted API service layer
+- 🔬 RAG architecture — retrieval pipelines, vector search, embedding strategies
+- 🤖 AI agent design — tool-calling, multi-step reasoning, memory management
+- ☁️ Cloud-native deployment — Kubernetes fundamentals, scaling strategies
+- 🧪 Advanced backend testing — integration and contract testing patterns
 
 ---
 
 ## 📊 GitHub Stats
 
-![Darun's GitHub Stats](https://github-readme-stats.vercel.app/api?username=darunbjork&show_icons=true&theme=dark&hide_border=true)
+![Darun's GitHub Stats](https://github-readme-stats.vercel.app/api?username=darunbjork&show_icons=true&theme=dark&hide_border=true&count_private=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=darunbjork&layout=compact&theme=dark&hide_border=true)
 
 ---
 
 ## 🔥 Streak
+
+> 1,622 contributions and counting — I build every day.
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=darunbjork&theme=dark&hide_border=true)
 
