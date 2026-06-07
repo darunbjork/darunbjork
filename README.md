@@ -42,7 +42,7 @@ precision regulators required in documentation to every codebase I touch.
 
 ---
 
-### [DevQuiz — AI Quiz Platform](https://github.com/darunbjork/DevQuiz)
+### [DevQuiz — AI Quiz Platform](https://github.com/darunbjork/DevQuiz) · [Frontend ↗](https://dev-quiz-2stl.vercel.app/) · [Backend ↗](https://devquiz-api-nblo.onrender.com/)
 `React` `TypeScript` `Gemini API` `Bun` `Fastify` `PostgreSQL` `FastAPI` `Docker`
 
 - **Structured prompt engineering** — micro-step prompt pipelines + output validation cut off-format Gemini responses by ~85% vs unstructured prompting
