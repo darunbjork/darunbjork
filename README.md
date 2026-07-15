@@ -24,7 +24,7 @@ precision regulators required in documentation to every codebase I touch.
 | Project                                                                                  | Stack                                     | Status        |
 | ---------------------------------------------------------------------------------------- | ----------------------------------------- | ------------- |
 | [Research Assistant Platform](https://github.com/darunbjork/research-assistant-platform) | React · Fastify · Gemini · RAG · Pinecone | 🟡 In progress |
-| [Task Manager API](https://github.com/darunbjork/task-manager-api)                       | Bun · Fastify · PostgreSQL · Prisma       | 🟡 In progress |
+| [CleanNation](https://github.com/darunbjork/cleannation)                                 | Bun · Microservices · PostgreSQL · Kafka  | 🟡 In progress |
 | [Smart Home Frontend](https://github.com/darunbjork/smart-home-frontend)                 | React · TypeScript · Socket.io · Tailwind | 🟡 In progress |
 
 > 🟢 Shipped · 🟡 In progress · 🔴 Planned
