@@ -23,11 +23,11 @@ precision regulators required in documentation to every codebase I touch.
 
 | Project                                                                                  | Stack                                     | Status        |
 | ---------------------------------------------------------------------------------------- | ----------------------------------------- | ------------- |
-| [Research Assistant Platform](https://github.com/darunbjork/research-assistant-platform) | React · Fastify · Gemini · RAG · Pinecone | 🟡 In progress |
+| [Research Assistant Platform](https://github.com/darunbjork/research-assistant-platform) | React · Fastify · Gemini · RAG · pgvector | 🟢 Completed (Local) |
 | [CleanNation](https://github.com/darunbjork/cleannation)                                 | Bun · Microservices · PostgreSQL · Kafka  | 🟡 In progress |
 | [Smart Home Frontend](https://github.com/darunbjork/smart-home-frontend)                 | React · TypeScript · Socket.io · Tailwind | 🟡 In progress |
 
-> 🟢 Shipped · 🟡 In progress · 🔴 Planned
+> 🟢 Shipped / Completed · 🟡 In progress · 🔴 Planned
 
 ---
 
@@ -55,6 +55,15 @@ precision regulators required in documentation to every codebase I touch.
 
 - **Hardened file upload pipeline** — MIME type + size validation at middleware; invalid payloads blocked before reaching Cloudinary
 - **Production-scale frontend patterns** — Zustand global auth state, Axios interceptor token refresh, abstracted API service layer
+
+---
+
+### [Research Assistant Platform](https://github.com/darunbjork/research-assistant-platform)
+`React` `TypeScript` `Fastify` `Gemini API` `PostgreSQL/pgvector` `Redis` `Docker` `Prometheus` `Grafana`
+
+- **Hybrid retrieval & grounded AI** — pgvector cosine similarity + BM25 keyword search merged via Reciprocal Rank Fusion (RRF) for cited, grounded answers
+- **Self-correcting agent loop** — ReAct reasoning loop with RAG Triad quality evaluation (context relevance, faithfulness, answer relevance) and automated retries
+- **Real-time streaming & observability** — WebSocket streaming for live agent reasoning transparency, 12-panel Grafana monitoring dashboard, and OpenTelemetry tracing
 
 ---
 
