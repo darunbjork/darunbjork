@@ -4,10 +4,6 @@ Full-stack developer shipping production systems in React/TypeScript,
 Node.js/Fastify, PostgreSQL, MongoDB, and Docker — with a consistent
 focus on auth security, API contract design, and real-time data.
 
-Six years coordinating complex operations under pressure built one rule:
-**design for failure before you design for features** — I bring the same
-precision regulators required in documentation to every codebase I touch.
-
 > Specialising in production LLM integrations — structured prompt
 > pipelines, output validation, and AI-powered full-stack backends.
 
@@ -22,8 +18,8 @@ precision regulators required in documentation to every codebase I touch.
 ## 🚧 Currently Building
 
 | Project                                                                                  | Stack                                     | Status        |
-| ---------------------------------------------------------------------------------------- | ----------------------------------------- | ------------- |
-| [Research Assistant Platform](https://github.com/darunbjork/research-assistant-platform) | React · Fastify · Gemini · RAG · pgvector | 🟢 Completed (Local) |
+| ---------------------------------------------------------------------------------------- | ------------------------------------------ | ------------- |
+| [Research Assistant Platform](https://github.com/darunbjork/research-assistant-platform) | React · Fastify · Gemini · RAG · pgvector | 🟡 In progress (deployment pending) |
 | [CleanNation](https://github.com/darunbjork/cleannation)                                 | Bun · Microservices · PostgreSQL · Kafka  | 🟡 In progress |
 | [Smart Home Frontend](https://github.com/darunbjork/smart-home-frontend)                 | React · TypeScript · Socket.io · Tailwind | 🟡 In progress |
 
@@ -50,7 +46,7 @@ precision regulators required in documentation to every codebase I touch.
 
 ---
 
-### [Portfolio Management System](https://github.com/darunbjork/my-portfolio-os) · [Live Demo ↗](https://my-portfolio-gr2e.onrender.com/)
+### [Personal Portfolio Platform](https://github.com/darunbjork/my-portfolio-os) · [Live Demo ↗](https://my-portfolio-gr2e.onrender.com/)
 `React` `TypeScript` `Tailwind` `Zustand` `Axios` `Node.js` `MongoDB` `Cloudinary` `JWT`
 
 - **Hardened file upload pipeline** — MIME type + size validation at middleware; invalid payloads blocked before reaching Cloudinary
@@ -64,6 +60,7 @@ precision regulators required in documentation to every codebase I touch.
 - **Hybrid retrieval & grounded AI** — pgvector cosine similarity + BM25 keyword search merged via Reciprocal Rank Fusion (RRF) for cited, grounded answers
 - **Self-correcting agent loop** — ReAct reasoning loop with RAG Triad quality evaluation (context relevance, faithfulness, answer relevance) and automated retries
 - **Real-time streaming & observability** — WebSocket streaming for live agent reasoning transparency, 12-panel Grafana monitoring dashboard, and OpenTelemetry tracing
+- **Status: built and validated locally, deployment in progress**
 
 ---
 
@@ -71,7 +68,7 @@ precision regulators required in documentation to every codebase I touch.
 
 | Project                                                                  | Description                                                            | Stack                                     |
 | ------------------------------------------------------------------------ | ---------------------------------------------------------------------- | ----------------------------------------- |
-| [DevQuiz API](https://github.com/darunbjork/devquiz-api)                 | Backend for AI quiz generation with Gemini, JWT auth, and Swagger docs | Bun · Fastify · MongoDB · Gemini          |
+| [DevQuiz API](https://github.com/darunbjork/devquiz-api)                 | Standalone backend service for AI quiz generation with Gemini, JWT auth, and Swagger docs | Bun · Fastify · MongoDB · Gemini          |
 | [InsightAPI](https://github.com/darunbjork/InsightAPI)                   | Social platform backend — auth, posts, user relationships              | Node.js · Express · MongoDB               |
 | [Developer Portfolio](https://github.com/darunbjork/developer-portfolio) | Responsive SPA with GSAP animations and Node.js contact backend        | HTML · CSS · JavaScript · Node.js         |
 
@@ -102,6 +99,7 @@ precision regulators required in documentation to every codebase I touch.
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=flat&logo=firebase&logoColor=white)
+<!-- TODO: add the Firebase project to "Also Built" — badge is currently unsupported by any listed project -->
 
 **DevOps & Tooling**
 ![Docker](https://img.shields.io/badge/Docker-0DB7ED?style=flat&logo=docker&logoColor=white)
