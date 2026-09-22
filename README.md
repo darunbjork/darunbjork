@@ -11,7 +11,7 @@ focus on auth security, API contract design, and real-time data.
 📧 darunbjork@gmail.com
 🎓 Fullstack Developer — Chas Academy (2025–2027)
 💼 Open to Full-Stack, Frontend, and Backend roles
-🔗 Portfolio: https://myportfolio-ui.netlify.app
+🔗 Portfolio: https://darun-dev.pages.dev
 
 ---
 
@@ -129,8 +129,8 @@ focus on auth security, API contract design, and real-time data.
 
 ## 📊 GitHub Stats
 
-![Darun's GitHub Stats](https://github-readme-stats.vercel.app/api?username=darunbjork&show_icons=true&theme=dark&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=darunbjork&layout=compact&theme=dark&hide_border=true)
+![Darun's GitHub Stats](https://github-stats-extended.vercel.app/api?username=darunbjork&show_icons=true&theme=dark&hide_border=true&count_private=true)
+![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=darunbjork&layout=compact&theme=dark&hide_border=true)
 
 ---
 
@@ -145,7 +145,7 @@ focus on auth security, API contract design, and real-time data.
 ## 🤝 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/darun-mustafa/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=netlify&logoColor=white)](https://myportfolio-ui.netlify.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=cloudflare&logoColor=white)](https://darun-dev.pages.dev)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:darunbjork@gmail.com)
 
 ---
