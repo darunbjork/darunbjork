@@ -70,7 +70,7 @@ focus on auth security, API contract design, and real-time data.
 | ------------------------------------------------------------------------ | ---------------------------------------------------------------------- | ----------------------------------------- |
 | [DevQuiz API](https://github.com/darunbjork/devquiz-api)                 | Standalone backend service for AI quiz generation with Gemini, JWT auth, and Swagger docs | Bun · Fastify · MongoDB · Gemini          |
 | [InsightAPI](https://github.com/darunbjork/InsightAPI)                   | Social platform backend — auth, posts, user relationships              | Node.js · Express · MongoDB               |
-| [Developer Portfolio](https://github.com/darunbjork/developer-portfolio) | Responsive SPA with GSAP animations and Node.js contact backend        | HTML · CSS · JavaScript · Node.js         |
+| [QuickServe](https://github.com/darunbjork/quickserve)                   | Distributed, event-driven fast-food ordering system (Chas Academy exam) — one-command demo | TypeScript · React · RabbitMQ · PostgreSQL · Docker |
 
 ---
 
