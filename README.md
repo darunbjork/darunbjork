@@ -1,129 +1,139 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile-banner-light.svg">
+  <img alt="Darun Mustafa — Full-Stack Developer, AI/Agentic Systems" src="./profile-banner-dark.svg">
+</picture>
+
 # 👋 Hi, I'm Darun Mustafa
 
 Full-stack developer shipping production systems in React/TypeScript,
-Node.js/Fastify, PostgreSQL, MongoDB, and Docker — with a consistent
-focus on auth security, API contract design, and real-time data.
+Node.js/Fastify/Express, Bun, PostgreSQL, MongoDB, and Docker — with a
+consistent focus on auth security, API contract design, real-time data,
+and production AI integration.
 
-> Specialising in production LLM integrations — structured prompt
-> pipelines, output validation, and AI-powered full-stack backends.
-
-🌍 Stockholm, Sweden
-📧 darunbjork@gmail.com
-🎓 Fullstack Developer — Chas Academy (2025–2027)
-💼 Open to Full-Stack, Frontend, and Backend roles
-🔗 Portfolio: https://darun-dev.pages.dev
+- 🌍 Stockholm, Sweden
+- 📧 darunbjork@gmail.com
+- 🎓 Fullstack Developer — Chas Academy (2025–2027)
+- 💼 Open to Full-Stack, Backend, and AI Engineering roles
+- 🔗 Portfolio: https://darun-dev.pages.dev
 
 ---
 
 ## 🚧 Currently Building
 
-| Project                                                                                  | Stack                                     | Status        |
-| ---------------------------------------------------------------------------------------- | ------------------------------------------ | ------------- |
-| [Research Assistant Platform](https://github.com/darunbjork/research-assistant-platform) | React · Fastify · Gemini · RAG · pgvector | 🟡 In progress (deployment pending) |
-| [CleanNation](https://github.com/darunbjork/cleannation)                                 | Bun · Microservices · PostgreSQL · Kafka  | 🟡 In progress |
-| [Smart Home Frontend](https://github.com/darunbjork/smart-home-frontend)                 | React · TypeScript · Socket.io · Tailwind | 🟡 In progress |
+| Project | Stack | Status |
+| --- | --- | --- |
+| [CleanNation](https://github.com/darunbjork/cleannation) | Bun · Fastify 5 · Prisma 7 · PostgreSQL (database-per-service) · Redis · Kafka | 🟡 In progress |
+| [Smart Home Frontend](https://github.com/darunbjork/smart-home-frontend) | React · TypeScript · Socket.io · Tailwind | 🟡 In progress |
+| [voice-agent](https://github.com/darunbjork) | Fastify 5 · TypeScript — real-time streaming STT, structured LLM reasoning | 🟡 In progress |
 
-> 🟢 Shipped / Completed · 🟡 In progress · 🔴 Planned
+> 🟢 Shipped · 🟡 In progress · 🔴 Planned
 
 ---
 
 ## 🚀 Featured Projects
 
-### [Smart Home Automation API](https://github.com/darunbjork/smart-home-automation-api) · [Live Demo ↗](https://smart-home-api-c9r8.onrender.com/)
-`Node.js` `TypeScript` `MongoDB` `MQTT` `Socket.io` `JWT/RBAC` `Docker` `GitHub Actions` `Swagger`
+### [darun.dev](https://github.com/darunbjork/darun.dev) · [Live ↗](https://darun-dev.pages.dev)
 
-- **Full IoT real-time loop** — MQTT handles device commands; Socket.io fans state to all clients in <30 ms; closed-loop simulator validates the full device ↔ API ↔ client flow
-- **Production-hardened deploy** — multi-stage Dockerfile, multi-platform image (linux/amd64 + linux/arm64), GitHub Actions CI, Swagger /api-docs, live on Render
-- **Zero cross-tenant leakage** — RBAC + household-scoped middleware at the route layer; users physically cannot read or write another tenant's devices
+`Fastify 5` `Prisma 7` `PostgreSQL` `Redis` `Gemini API` `React` `Tailwind` `Turborepo`
 
----
-
-### [DevQuiz — AI Quiz Platform](https://github.com/darunbjork/DevQuiz) · [Frontend ↗](https://dev-quiz-2stl.vercel.app/) · [Backend ↗](https://devquiz-api-nblo.onrender.com/)
-`React` `TypeScript` `Gemini API` `Bun` `Fastify` `PostgreSQL` `Docker`
-
-- **Structured prompt engineering** — micro-step prompt pipelines + output validation cut off-format Gemini responses by ~85% vs unstructured prompting
-- **Resumable sessions** — PostgreSQL-persisted quiz state with JWT accounts; users resume mid-session with zero data loss on reconnect
-
----
-
-### [Personal Portfolio Platform](https://github.com/darunbjork/my-portfolio-os) · [Live Demo ↗](https://my-portfolio-gr2e.onrender.com/)
-`React` `TypeScript` `Tailwind` `Zustand` `Axios` `Node.js` `MongoDB` `Cloudinary` `JWT`
-
-- **Hardened file upload pipeline** — MIME type + size validation at middleware; invalid payloads blocked before reaching Cloudinary
-- **Production-scale frontend patterns** — Zustand global auth state, Axios interceptor token refresh, abstracted API service layer
+- **Hybrid RAG chat over my own CV and project READMEs** — ask it what I've shipped recently and it answers grounded in the actual docs.
+- **Self-maintaining embeddings** — a GitHub webhook pipeline (`@octokit/webhooks`) re-embeds content automatically when project READMEs change, no manual re-indexing.
+- **Admin CMS** — manage project content, view analytics, without touching code.
+- **Security** — Argon2id password hashing, CSRF protection, JWT auth via a shared Turborepo monorepo (`@darun/shared-types` across API and web).
+- Frontend built with React, Tailwind, GSAP animations, Radix UI primitives, TanStack Query, and React Hook Form.
 
 ---
 
 ### [Research Assistant Platform](https://github.com/darunbjork/research-assistant-platform)
-`React` `TypeScript` `Fastify` `Gemini API` `PostgreSQL/pgvector` `Redis` `Docker` `Prometheus` `Grafana`
 
-- **Hybrid retrieval & grounded AI** — pgvector cosine similarity + BM25 keyword search merged via Reciprocal Rank Fusion (RRF) for cited, grounded answers
-- **Self-correcting agent loop** — ReAct reasoning loop with RAG Triad quality evaluation (context relevance, faithfulness, answer relevance) and automated retries
-- **Real-time streaming & observability** — WebSocket streaming for live agent reasoning transparency, 12-panel Grafana monitoring dashboard, and OpenTelemetry tracing
-- **Status: built and validated locally, deployment in progress**
+`Express` `TypeScript` `PostgreSQL/pgvector` `Redis` `Gemini API` `Docker` `OpenTelemetry`
+
+- **Hybrid retrieval & grounded AI** — pgvector cosine similarity + BM25 keyword search merged via Reciprocal Rank Fusion (RRF) for cited, grounded answers.
+- **Multi-node agent workflow** — classify → retrieve/tool-use → evaluate, with automated quality scoring and retry logic on low-confidence answers.
+- **Observability** — OpenTelemetry tracing, Prometheus metrics, structured logging with daily rotation.
+- **Load-tested** — Artillery suite covering baseline, ramp-up, cache-warming, spike, and sustained-load scenarios, plus dedicated WebSocket load tests.
+- **640+ Jest tests, 82% line coverage in CI.**
+- **Status:** built and validated locally, deployment in progress.
+
+---
+
+### [DevQuiz — AI Quiz Platform](https://github.com/darunbjork/DevQuiz) · [Live Demo ↗](https://dev-quiz-2stl.vercel.app/)
+
+`React 19` `TypeScript` `Vite` `Vitest` `Testing Library` `Recharts` `Bun` `Fastify` `MongoDB` `Zod` `JWT` `Gemini API`
+
+- **Analytics dashboard with Recharts** — performance-over-time line chart, accuracy donut chart, quick-stat cards.
+- **Structured prompt engineering** — micro-step prompt pipelines + Zod output validation to keep Gemini responses on-format.
+- **State: React Context**, not Redux — kept deliberately minimal for the app's size.
+- **Real backend, not local-only** — JWT auth with refresh-token rotation, quiz generation and results persisted server-side in MongoDB.
+- **Tested on both sides** — Vitest + Testing Library on the client, Vitest on the API.
+
+---
+
+### [Smart Home Automation API](https://github.com/darunbjork/smart-home-automation-api) · [Live Demo ↗](https://smart-home-api-c9r8.onrender.com/)
+
+`Node.js` `TypeScript` `MongoDB` `MQTT` `Socket.io` `JWT/RBAC` `Docker` `GitHub Actions` `Swagger`
+
+- **Full IoT real-time loop** — MQTT handles device commands; Socket.io fans state to all clients in <30ms.
+- **Production-hardened deploy** — multi-stage Dockerfile, multi-platform image (linux/amd64 + linux/arm64), GitHub Actions CI, Swagger at `/api-docs`.
+- **Tenant isolation** — RBAC + household-scoped middleware; cross-tenant data access is structurally blocked.
 
 ---
 
 ## 🗂 Also Built
 
-| Project                                                                  | Description                                                            | Stack                                     |
-| ------------------------------------------------------------------------ | ---------------------------------------------------------------------- | ----------------------------------------- |
-| [DevQuiz API](https://github.com/darunbjork/devquiz-api)                 | Standalone backend service for AI quiz generation with Gemini, JWT auth, and Swagger docs | Bun · Fastify · MongoDB · Gemini          |
-| [InsightAPI](https://github.com/darunbjork/InsightAPI)                   | Social platform backend — auth, posts, user relationships              | Node.js · Express · MongoDB               |
-| [QuickServe](https://github.com/darunbjork/quickserve)                   | Distributed, event-driven fast-food ordering system (Chas Academy exam) — one-command demo | TypeScript · React · RabbitMQ · PostgreSQL · Docker |
+| Project | Description | Stack |
+| --- | --- | --- |
+| [my-portfolio-os](https://github.com/darunbjork/my-portfolio-os) + [portfolio-ui](https://github.com/darunbjork/portfolio-ui) | My previous portfolio — superseded by darun.dev | Express · MongoDB · Redis · Cloudinary · React · Tailwind |
+| [DevQuiz API](https://github.com/darunbjork/devquiz-api) | Standalone backend for DevQuiz — quiz generation, JWT auth, Swagger docs | Bun · Fastify · MongoDB · Gemini |
+| [Chat App](https://github.com/darunbjork) | Real-time mobile messaging — Firestore listeners, push notifications | React Native · Expo · Firebase |
+| [InsightAPI](https://github.com/darunbjork/InsightAPI) | Social platform backend — auth, posts, user relationships | Node.js · Express · MongoDB |
+| [QuickServe](https://github.com/darunbjork/quickserve) | Distributed, event-driven fast-food ordering system (Chas Academy exam) | TypeScript · React · RabbitMQ · PostgreSQL · Docker |
+
+---
+
+## 🤖 AI-Assisted Development
+
+I use AI tools — **Grok, Claude, and Codex** — as part of my daily workflow:
+scaffolding, refactoring, and reviewing. I verify what they produce by
+reading the diff, running the tests, and checking edge cases before
+anything ships. Generated code still has to pass CI, and I own what I merge.
 
 ---
 
 ## 🛠 Skills
 
 **Frontend**
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+`React` `TypeScript` `JavaScript` `Tailwind CSS` `Zustand` `React Native` `Vite` `GSAP` `Radix UI` `TanStack Query` `React Hook Form`
+
+**Data Visualization**
+`Recharts`
 
 **Backend**
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat&logo=fastify&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat)
-![Bun](https://img.shields.io/badge/Bun-000000?style=flat&logo=bun&logoColor=white)
+`Node.js` `Fastify` `Express` `Bun` `REST` `Swagger/OpenAPI` `Zod`
 
-**AI & Prompt Engineering**
-![Gemini](https://img.shields.io/badge/Gemini_LLM-4285F4?style=flat&logo=google&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-FF6B6B?style=flat)
-![LLM Integration](https://img.shields.io/badge/LLM_Integration-7C3AED?style=flat)
+**AI / LLM (production)**
+`Gemini API` `RAG` `Agentic workflows` `Prompt Engineering` `Structured Output Validation`
 
-**Databases**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=flat&logo=firebase&logoColor=white)
-<!-- TODO: add the Firebase project to "Also Built" — badge is currently unsupported by any listed project -->
+**AI APIs explored** *(not yet confirmed as wired into shipped code)*
+`DeepSeek` `Grok` `GroqCloud` `Deepgram`
 
-**DevOps & Tooling**
-![Docker](https://img.shields.io/badge/Docker-0DB7ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-323330?style=flat&logo=jest&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white)
+**Databases & Messaging**
+`PostgreSQL` `pgvector` `Prisma` `MongoDB` `Mongoose` `Redis` `Firebase` `MQTT` `WebSockets` `Kafka` `RabbitMQ`
 
-**APIs & Protocols**
-![REST](https://img.shields.io/badge/REST_API-FF6C37?style=flat)
-![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat)
-![JWT](https://img.shields.io/badge/JWT/RBAC-000000?style=flat&logo=jsonwebtokens&logoColor=white)
+**DevOps & Testing**
+`Docker` `GitHub Actions` `Git` `Vitest` `Jest` `Testing Library` `Supertest` `Artillery` `Render` `Vercel` `Cloudflare Pages`
+
+**Security**
+`JWT/RBAC` `Argon2id` `bcrypt` `Helmet` `CSRF Protection` `Multi-tenant Isolation`
 
 ---
 
-## 📚 Currently Learning
+## 📚 Currently Exploring
 
-- 🔬 RAG architecture — retrieval pipelines, vector search, embedding strategies
-- 🤖 AI agent design — tool-calling, multi-step reasoning, memory management
-- ☁️ Cloud-native deployment — Kubernetes fundamentals, scaling strategies
-- 🧪 Advanced backend testing — integration and contract testing patterns
+- 🧠 Agentic systems at scale — multi-service orchestration, event-driven architecture (CleanNation)
+- ☁️ Cloud-native deployment — Kubernetes fundamentals, horizontal scaling
+- 🧪 Contract testing and integration patterns across service boundaries
 
 ---
 
@@ -153,10 +163,10 @@ focus on auth security, API contract design, and real-time data.
 ## 📚 Education
 
 **Fullstack Developer — Open Source Track** · Chas Academy, Stockholm
-`Sep 2025 – Jun 2027` · Full-stack development, DevOps, cloud-native architecture
+`Sep 2025 – Jun 2027`
 
 **Full-Stack Web Development Certificate** · CareerFoundry (Remote)
-`Jun 2023 – Aug 2024` · Frontend, backend, databases, deployment
+`Jun 2023 – Aug 2024`
 
 **Business Administration Diploma** · Choman Technical Institute, Iraq
 `2011 – 2013` · Evaluated by UHR Sweden as equivalent to SeQF Level 5
