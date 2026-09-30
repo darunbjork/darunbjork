@@ -3,13 +3,13 @@
 Full-stack developer shipping production systems in React/TypeScript,
 Node.js/Fastify/Express, Bun, PostgreSQL, MongoDB, and Docker — with a
 consistent focus on auth security, API contract design, real-time data,
-and production AI integration.
+and production AI integration across five projects.
 
-- 🌍 Stockholm, Sweden
-- 📧 darunbjork@gmail.com
-- 🎓 Fullstack Developer — Chas Academy (2025–2027)
-- 💼 Open to Full-Stack, Backend, and AI Engineering roles
-- 🔗 Portfolio: https://darun-dev.pages.dev
+🌍 Stockholm, Sweden
+📧 darunbjork@gmail.com
+🎓 Fullstack Developer — Chas Academy (2025–2027)
+💼 Open to Full-Stack, Backend, and AI Engineering roles
+🔗 Portfolio: https://darun-dev.pages.dev
 
 ---
 
@@ -17,9 +17,9 @@ and production AI integration.
 
 | Project | Stack | Status |
 | --- | --- | --- |
-| [CleanNation](https://github.com/darunbjork/cleannation) | Bun · Fastify 5 · Prisma 7 · PostgreSQL (database-per-service) · Redis · Kafka | 🟡 In progress |
+| [CleanNation](https://github.com/darunbjork/cleannation) | Bun · Fastify · Prisma · PostgreSQL (per-service) · Redis · Kafka | 🟡 In progress |
+| [voice-agent](https://github.com/darunbjork/voice-agent) · [Live ↗](https://voice-agent-nine-self.vercel.app) | Fastify 5 · TypeScript · Deepgram · Gemini · ElevenLabs | 🟢 Shipped |
 | [Smart Home Frontend](https://github.com/darunbjork/smart-home-frontend) | React · TypeScript · Socket.io · Tailwind | 🟡 In progress |
-| [voice-agent](https://github.com/darunbjork/voice-agent) · [Live ↗](https://voice-agent-nine-self.vercel.app) | Fastify 5 · TypeScript — real-time streaming STT, structured LLM reasoning | 🟢 Shipped |
 
 > 🟢 Shipped · 🟡 In progress · 🔴 Planned
 
@@ -31,11 +31,22 @@ and production AI integration.
 
 `Fastify 5` `Prisma 7` `PostgreSQL` `Redis` `Gemini API` `React` `Tailwind` `Turborepo`
 
-- **Hybrid RAG chat over my own CV and project READMEs** — ask it what I've shipped recently and it answers grounded in the actual docs.
-- **Self-maintaining embeddings** — a GitHub webhook pipeline (`@octokit/webhooks`) re-embeds content automatically when project READMEs change, no manual re-indexing.
-- **Admin CMS** — manage project content, view analytics, without touching code.
-- **Security** — Argon2id password hashing, CSRF protection, JWT auth via a shared Turborepo monorepo (`@darun/shared-types` across API and web).
-- Frontend built with React, Tailwind, GSAP animations, Radix UI primitives, TanStack Query, and React Hook Form.
+- **Hybrid RAG chat over my own CV and project READMEs** — ask what I've shipped recently and it answers grounded in the actual docs.
+- **Self-maintaining embeddings** — a GitHub webhook pipeline (`@octokit/webhooks`) re-embeds content automatically when project READMEs change.
+- **Admin CMS**, Argon2id password hashing, CSRF protection, JWT auth, shared TypeScript types across a Turborepo monorepo.
+- **AI-powered job-pitch generator** and structured Gemini chat with Zod-validated output.
+- Frontend built with React, Tailwind, GSAP, Radix UI, TanStack Query, React Hook Form.
+
+---
+
+### [voice-agent](https://github.com/darunbjork/voice-agent) · [Live ↗](https://voice-agent-nine-self.vercel.app)
+
+`Fastify 5` `TypeScript` `PostgreSQL` `Redis` `WebSocket` `Deepgram` `Gemini` `ElevenLabs`
+
+- **Real-time three-provider voice pipeline** — Deepgram handles streaming speech-to-text, Gemini handles reasoning, ElevenLabs handles text-to-speech, coordinated over a persistent WebSocket connection.
+- **Per-provider circuit breakers with graceful degradation** — if the speech-to-text circuit opens, the session falls back to text input instead of dropping.
+- **Production observability** — Sentry error tracking, a scripted accessibility baseline (axe-core), and dedicated latency instrumentation.
+- **Status:** shipped.
 
 ---
 
@@ -45,32 +56,30 @@ and production AI integration.
 
 - **Hybrid retrieval & grounded AI** — pgvector cosine similarity + BM25 keyword search merged via Reciprocal Rank Fusion (RRF) for cited, grounded answers.
 - **Multi-node agent workflow** — classify → retrieve/tool-use → evaluate, with automated quality scoring and retry logic on low-confidence answers.
-- **Observability** — OpenTelemetry tracing, Prometheus metrics, structured logging with daily rotation.
-- **Load-tested** — Artillery suite covering baseline, ramp-up, cache-warming, spike, and sustained-load scenarios, plus dedicated WebSocket load tests.
+- **Load-tested** — Artillery suite covering baseline, ramp-up, cache-warming, spike, sustained-load, and WebSocket scenarios.
 - **640+ Jest tests, 82% line coverage in CI.**
 - **Status:** built and validated locally, deployment in progress.
 
 ---
 
-### [DevQuiz — AI Quiz Platform](https://github.com/darunbjork/DevQuiz) · [Live Demo ↗](https://dev-quiz-2stl.vercel.app/)
+### [CleanNation](https://github.com/darunbjork/cleannation)
 
-`React 19` `TypeScript` `Vite` `Vitest` `Testing Library` `Recharts` `Bun` `Fastify` `MongoDB` `Zod` `JWT` `Gemini API`
+`Bun` `Fastify` `Prisma` `PostgreSQL (database-per-service)` `Redis` `Kafka`
 
-- **Analytics dashboard with Recharts** — performance-over-time line chart, accuracy donut chart, quick-stat cards.
-- **Structured prompt engineering** — micro-step prompt pipelines + Zod output validation to keep Gemini responses on-format.
-- **State: React Context**, not Redux — kept deliberately minimal for the app's size.
-- **Real backend, not local-only** — JWT auth with refresh-token rotation, quiz generation and results persisted server-side in MongoDB.
-- **Tested on both sides** — Vitest + Testing Library on the client, Vitest on the API.
+- **Event-driven microservices** — seven independent services (auth, event, location, media, gamification, notification, payment), each with its own database.
+- **Argon2id password hashing**, JWT auth, Redis-backed rate limiting.
+- **Status:** in progress.
 
 ---
 
 ### [Smart Home Automation API](https://github.com/darunbjork/smart-home-automation-api) · [Live Demo ↗](https://smart-home-api-c9r8.onrender.com/)
 
-`Node.js` `TypeScript` `MongoDB` `MQTT` `Socket.io` `JWT/RBAC` `Docker` `GitHub Actions` `Swagger`
+`Node.js` `TypeScript` `MongoDB` `MQTT` `Socket.io` `Gemini API` `JWT/RBAC` `Docker` `Swagger`
 
-- **Full IoT real-time loop** — MQTT handles device commands; Socket.io fans state to all clients in <30ms.
-- **Production-hardened deploy** — multi-stage Dockerfile, multi-platform image (linux/amd64 + linux/arm64), GitHub Actions CI, Swagger at `/api-docs`.
+- **Full IoT real-time loop** — a self-hosted MQTT broker (`aedes`) handles device commands; Socket.io fans state to all clients in <30ms.
+- **Server-side Gemini integration** for natural-language device commands.
 - **Tenant isolation** — RBAC + household-scoped middleware; cross-tenant data access is structurally blocked.
+- Structured logging (`pino`), rate limiting, input validation.
 
 ---
 
@@ -79,8 +88,9 @@ and production AI integration.
 | Project | Description | Stack |
 | --- | --- | --- |
 | [my-portfolio-os](https://github.com/darunbjork/my-portfolio-os) + [portfolio-ui](https://github.com/darunbjork/portfolio-ui) | My previous portfolio — superseded by darun.dev | Express · MongoDB · Redis · Cloudinary · React · Tailwind |
-| [DevQuiz API](https://github.com/darunbjork/devquiz-api) | Standalone backend for DevQuiz — quiz generation, JWT auth, Swagger docs | Bun · Fastify · MongoDB · Gemini |
-| [Chat App](https://github.com/darunbjork/chat-app) | Real-time mobile messaging — Firestore listeners, push notifications | React Native · Expo · Firebase |
+| [DevQuiz](https://github.com/darunbjork/DevQuiz) + [API](https://github.com/darunbjork/devquiz-api) | AI quiz platform with an analytics dashboard | React · Vite · Recharts · Bun · Fastify · MongoDB · Gemini |
+| [Smart Home Frontend](https://github.com/darunbjork/smart-home-frontend) | Dashboard for the Smart Home API | React · TypeScript · Socket.io · Recharts |
+| [Chat App](https://github.com/darunbjork/chat-app) | Mobile messaging with maps and image sharing | React Native · Expo · Firebase |
 | [InsightAPI](https://github.com/darunbjork/InsightAPI) | Social platform backend — auth, posts, user relationships | Node.js · Express · MongoDB |
 | [QuickServe](https://github.com/darunbjork/quickserve) | Distributed, event-driven fast-food ordering system (Chas Academy exam) | TypeScript · React · RabbitMQ · PostgreSQL · Docker |
 
@@ -106,11 +116,11 @@ anything ships. Generated code still has to pass CI, and I own what I merge.
 **Backend**
 `Node.js` `Fastify` `Express` `Bun` `REST` `Swagger/OpenAPI` `Zod`
 
-**AI / LLM (production)**
-`Gemini API` `RAG` `Agentic workflows` `Prompt Engineering` `Structured Output Validation`
+**AI / LLM — production**
+`Gemini API` (5 projects) · `Deepgram` (voice-agent) · `ElevenLabs` (voice-agent) · `RAG` · `Agentic workflows` · `Prompt Engineering`
 
-**AI APIs explored** *(not yet confirmed as wired into shipped code)*
-`DeepSeek` `Grok` `GroqCloud` `Deepgram`
+**AI APIs explored** *(not in shipped code)*
+`DeepSeek` `Grok` `GroqCloud`
 
 **Databases & Messaging**
 `PostgreSQL` `pgvector` `Prisma` `MongoDB` `Mongoose` `Redis` `Firebase` `MQTT` `WebSockets` `Kafka` `RabbitMQ`
@@ -126,6 +136,7 @@ anything ships. Generated code still has to pass CI, and I own what I merge.
 ## 📚 Currently Exploring
 
 - 🧠 Agentic systems at scale — multi-service orchestration, event-driven architecture (CleanNation)
+- 🎙️ Multi-provider real-time pipelines — circuit breaking and graceful degradation across services (voice-agent)
 - ☁️ Cloud-native deployment — Kubernetes fundamentals, horizontal scaling
 - 🧪 Contract testing and integration patterns across service boundaries
 
