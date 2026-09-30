@@ -80,7 +80,7 @@ and production AI integration.
 | --- | --- | --- |
 | [my-portfolio-os](https://github.com/darunbjork/my-portfolio-os) + [portfolio-ui](https://github.com/darunbjork/portfolio-ui) | My previous portfolio — superseded by darun.dev | Express · MongoDB · Redis · Cloudinary · React · Tailwind |
 | [DevQuiz API](https://github.com/darunbjork/devquiz-api) | Standalone backend for DevQuiz — quiz generation, JWT auth, Swagger docs | Bun · Fastify · MongoDB · Gemini |
-| [Chat App](https://github.com/darunbjork) | Real-time mobile messaging — Firestore listeners, push notifications | React Native · Expo · Firebase |
+| [Chat App](https://github.com/darunbjork/chat-app) | Real-time mobile messaging — Firestore listeners, push notifications | React Native · Expo · Firebase |
 | [InsightAPI](https://github.com/darunbjork/InsightAPI) | Social platform backend — auth, posts, user relationships | Node.js · Express · MongoDB |
 | [QuickServe](https://github.com/darunbjork/quickserve) | Distributed, event-driven fast-food ordering system (Chas Academy exam) | TypeScript · React · RabbitMQ · PostgreSQL · Docker |
 
