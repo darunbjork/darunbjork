@@ -1,9 +1,3 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./profile-banner-light.svg">
-  <img alt="Darun Mustafa — Full-Stack Developer, AI/Agentic Systems" src="./profile-banner-dark.svg">
-</picture>
-
 # 👋 Hi, I'm Darun Mustafa
 
 Full-stack developer shipping production systems in React/TypeScript,
