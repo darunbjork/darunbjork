@@ -19,7 +19,7 @@ and production AI integration.
 | --- | --- | --- |
 | [CleanNation](https://github.com/darunbjork/cleannation) | Bun · Fastify 5 · Prisma 7 · PostgreSQL (database-per-service) · Redis · Kafka | 🟡 In progress |
 | [Smart Home Frontend](https://github.com/darunbjork/smart-home-frontend) | React · TypeScript · Socket.io · Tailwind | 🟡 In progress |
-| [voice-agent](https://github.com/darunbjork) | Fastify 5 · TypeScript — real-time streaming STT, structured LLM reasoning | 🟡 In progress |
+| [voice-agent](https://github.com/darunbjork/voice-agent) · [Live ↗](https://voice-agent-nine-self.vercel.app) | Fastify 5 · TypeScript — real-time streaming STT, structured LLM reasoning | 🟢 Shipped |
 
 > 🟢 Shipped · 🟡 In progress · 🔴 Planned
 
