@@ -5,11 +5,11 @@ Node.js/Fastify/Express, Bun, PostgreSQL, MongoDB, and Docker — with a
 consistent focus on auth security, API contract design, real-time data,
 and production AI integration across five projects.
 
-🌍 Stockholm, Sweden
-📧 darunbjork@gmail.com
-🎓 Fullstack Developer — Chas Academy (2025–2027)
-💼 Open to Full-Stack, Backend, and AI Engineering roles
-🔗 Portfolio: https://darun-dev.pages.dev
+- 🌍 Stockholm, Sweden
+- 📧 darunbjork@gmail.com
+- 🎓 Fullstack Developer — Chas Academy (2025–2027)
+- 💼 Open to Full-Stack, Backend, and AI Engineering roles
+- 🔗 Portfolio: https://darun-dev.pages.dev
 
 ---
 
