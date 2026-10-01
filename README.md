@@ -151,7 +151,7 @@ anything ships. Generated code still has to pass CI, and I own what I merge.
 
 ## 🔥 Streak
 
-> 1,622 contributions and counting — I build every day.
+> I build every day — see the graph below.
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=darunbjork&theme=dark&hide_border=true)
 
