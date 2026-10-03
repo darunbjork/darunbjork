@@ -34,7 +34,8 @@ and production AI integration across five projects.
 - **Hybrid RAG chat over my own CV and project READMEs** — ask what I've shipped recently and it answers grounded in the actual docs.
 - **Self-maintaining embeddings** — a GitHub webhook pipeline (`@octokit/webhooks`) re-embeds content automatically when project READMEs change.
 - **Admin CMS**, Argon2id password hashing, CSRF protection, JWT auth, shared TypeScript types across a Turborepo monorepo.
-- **AI-powered job-pitch generator** and structured Gemini chat with Zod-validated output.
+- **Structured Gemini chat** with Zod-validated output.
+- **ATS source aggregation** (Greenhouse, Lever, Ashby, Adzuna) with Redis caching and AI-scored matching against my CV, generating tailored pitches.
 - Frontend built with React, Tailwind, GSAP, Radix UI, TanStack Query, React Hook Form.
 
 ---
