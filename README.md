@@ -47,6 +47,7 @@ and production AI integration across five projects.
 - **Real-time three-provider voice pipeline** — Deepgram handles streaming speech-to-text, Gemini handles reasoning, ElevenLabs handles text-to-speech, coordinated over a persistent WebSocket connection.
 - **Per-provider circuit breakers with graceful degradation** — if the speech-to-text circuit opens, the session falls back to text input instead of dropping.
 - **Production observability** — Sentry error tracking, a scripted accessibility baseline (axe-core), and dedicated latency instrumentation.
+- **Daily token ceiling** with pre-flight budget checks per Gemini/ElevenLabs call — returns 429 once exceeded, alerts at 80%.
 - **Status:** shipped.
 
 ---
