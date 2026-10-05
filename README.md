@@ -13,7 +13,7 @@ and production AI integration across five projects.
 
 ---
 
-## 🚧 Currently Building
+## 🚧 Active Projects
 
 | Project | Stack | Status |
 | --- | --- | --- |
@@ -91,7 +91,6 @@ and production AI integration across five projects.
 | --- | --- | --- |
 | [my-portfolio-os](https://github.com/darunbjork/my-portfolio-os) + [portfolio-ui](https://github.com/darunbjork/portfolio-ui) | My previous portfolio — superseded by darun.dev | Express · MongoDB · Redis · Cloudinary · React · Tailwind |
 | [DevQuiz](https://github.com/darunbjork/DevQuiz) + [API](https://github.com/darunbjork/devquiz-api) | AI quiz platform with an analytics dashboard | React · Vite · Recharts · Bun · Fastify · MongoDB · Gemini |
-| [Smart Home Frontend](https://github.com/darunbjork/smart-home-frontend) | Dashboard for the Smart Home API | React · TypeScript · Socket.io · Recharts |
 | [Chat App](https://github.com/darunbjork/chat-app) | Mobile messaging with maps and image sharing | React Native · Expo · Firebase |
 | [InsightAPI](https://github.com/darunbjork/InsightAPI) | Social platform backend — auth, posts, user relationships | Node.js · Express · MongoDB |
 | [QuickServe](https://github.com/darunbjork/quickserve) | Distributed, event-driven fast-food ordering system (Chas Academy exam) | TypeScript · React · RabbitMQ · PostgreSQL · Docker |
@@ -119,7 +118,7 @@ anything ships. Generated code still has to pass CI, and I own what I merge.
 `Node.js` `Fastify` `Express` `Bun` `REST` `Swagger/OpenAPI` `Zod`
 
 **AI / LLM — production**
-`Gemini API` (5 projects) · `Deepgram` (voice-agent) · `ElevenLabs` (voice-agent) · `RAG` · `Agentic workflows` · `Prompt Engineering`
+`Gemini API` (darun.dev, voice-agent, Research Assistant, Smart Home API, DevQuiz) · `Deepgram` (voice-agent) · `ElevenLabs` (voice-agent) · `RAG` · `Agentic workflows` · `Prompt Engineering`
 
 **AI APIs explored** *(not in shipped code)*
 `DeepSeek` `Grok` `GroqCloud`
@@ -144,18 +143,22 @@ anything ships. Generated code still has to pass CI, and I own what I merge.
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Top Languages
 
-![Darun's GitHub Stats](https://github-stats-extended.vercel.app/api?username=darunbjork&show_icons=true&theme=dark&hide_border=true&count_private=true)
 ![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=darunbjork&layout=compact&theme=dark&hide_border=true)
 
 ---
 
 ## 🔥 Streak
 
-> I build every day — see the graph below.
+> I build consistently — see the graph below.
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=darunbjork&theme=dark&hide_border=true)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/darunbjork/darunbjork/output-pacman/pacman-contribution-graph-dark.svg">
+  <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/darunbjork/darunbjork/output-pacman/pacman-contribution-graph.svg">
+</picture>
 
 ---
 
